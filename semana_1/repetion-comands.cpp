@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
 
@@ -9,8 +11,8 @@ int main()
 
   while (counter < 10)
   {
-    std::cout << "Digite um número (" << counter << ")" << std::endl;
-    std::cin >> number1;
+    cout << "Digite um número (" << counter << ")" << endl;
+    cin >> number1;
 
     if (number1 < 5)
     {
